@@ -5,6 +5,8 @@ type Props = {
 };
 
 export default function Item({ result }: Props) {
+  console.log(result);
+
   const itemTextCol = (
     <div className="flex flex-col justify-center">
       <h2>

@@ -20,38 +20,7 @@ export default function Navbar() {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/dashboard"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Dashboard
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/posts"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Posts
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Products
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="/users"
@@ -60,8 +29,15 @@ export default function Navbar() {
                   Users
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-gray-900 dark:text-white hover:underline"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
-            Search
           </div>
         </div>
       </nav>
